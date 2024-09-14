@@ -40,5 +40,5 @@
   "devDependencies": {
     "gh-pages": "^6.1.1"
   },
-  "homepage": "https://mayxoi.github.io/<nome-do-repositorio>"
+  "homepage": "https://mayxoi.github.io/react-todo"
 }
