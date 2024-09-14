@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ddd;
+  padding: 30px;
+  color: white;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto 300px;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  background-color: #4626cf;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+.todo-list {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #755cff;
+}
+
+.todo {
+  background-color: white;
+  box-shadow: 0 0 10px #00000000;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #4626cf;
+}
+
+.todo .category {
+  font-size: 0.8em;
+  color: #888;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.8;
+  transform: 0.2s;
+  margin-right: 10px;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+button.complete {
+  background-color: #28b128;
+  border: none;
+}
+
+button.remove {
+  background-color: #d83030;
+  border: none;
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+}
+
+input {
+  padding: 5px 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 100%;
+}
+
+select {
+  padding: 5px 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: auto;
+  flex: 1;
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+}
+
+.filter,
+.search {
+  border-bottom: 1px solid #755cff;
+  margin-bottom: 1rem;  
+  padding-bottom: 1rem;
+}
+
+.filter-options {
+  width: 100%;
+  align-items: center;
+}
+
+.search {
+  width: 100%;
+}
+
+.option-apptodo {
+  width: 32%;
+  margin: 0;
+  padding: 8px;
+  flex-grow: 2;
+}
+
+.tarefa {
+  width: 60%;
+  margin: 0;
+  padding: 8px;
+  flex-grow: 2;
+}
+
+.button-tarefa {
+  margin: 0;
+  padding: 8px;
+  flex-grow: 2;
+}
+
+.conteudo-todoform {
+  display: flex;
+  align-items: center;
+}
